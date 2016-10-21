@@ -33,9 +33,9 @@ public class Problema9 {
     }
     public static String operacion(String d){
         int numero1, numero2, numero3, numero4;
-        char cad [];
+        String cad=  "" ;
         int longitud = d.length();
-        cad= d.toCharArray();
+        
         
         numero1= d.charAt(0);
         numero2= d.charAt(1);
